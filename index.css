@@ -1,0 +1,119 @@
+body{
+    font-family: 'Uchen', serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+span{
+    color: tomato;
+}
+.First-Half{
+    display: flex;
+    margin-bottom: 100px;
+    margin: 0px 50px;
+}
+.content-first{
+    /* width: 50%; */
+    padding-left: 3%;
+}
+.first-1 img{
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+}
+.btn{
+    /* text-decoration: none; */
+    background-color: tomato;
+    /* background-image: linear-gradient(); */
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Secend-Half{
+    display: flex;
+    margin-bottom: 100px;
+    margin: 0px 50px;
+}
+.first-2 img{
+    margin-top: 30px;
+    padding: 10px 60px;
+    width: 400px;
+    height: 500px;
+    border-radius: 110px;
+    
+}
+.content-Secend{
+    /* width: 50%; */
+    padding-left: 5%;
+    margin-top: 10%;
+}
+.exp{
+    margin-left: 70px;
+}
+.exp-section{
+    display: flex;
+}
+.full-web{
+    /* width: 100%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(184, 184, 184);
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+#web{
+    border-left: 6px solid ;
+    border-image: linear-gradient(blue, tomato); 
+    border-image-slice: 1;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    .First-Half{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .first-1 img{
+     width: 100%;   
+    }
+    .Secend-Half{
+        flex-direction: column;
+    }
+    .first-2 img{
+        margin-bottom: 10%;
+        width: 100%;
+        padding: 10px 10px;   
+    }
+    .content-Secend{
+        margin-top: -50px;
+    }
+    .exp{
+        /* margin-left: 5%; */
+        /* margin-bottom: 50px; */
+    }
+    .exp-section{
+        flex-direction: column;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .full-web{
+        margin-bottom: 20px;
+    }
+    .foot{
+        flex-direction: column;
+        padding-left: 100px;
+        /* margin-left: 100%; */
+    }
+}
